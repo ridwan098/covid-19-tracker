@@ -5,7 +5,7 @@
 
 
 ### You can view live version here:
-- [My portfolio](https://covid19-tracker-2020.herokuapp.com/)
+- [Click here](https://covid19-tracker-2020.herokuapp.com/)
 
 In the project directory, you can run:
 
