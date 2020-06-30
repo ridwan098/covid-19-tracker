@@ -2,7 +2,9 @@ import React from 'react';
 import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
 import { fetchData } from './api';
-import coronaImage from './images/appicon.png'
+import coronaImage from './images/appicon.png';
+
+
 
 class App extends React.Component {
     state = {
@@ -30,6 +32,10 @@ class App extends React.Component {
                 <Cards data={data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Chart data={data} country={country} />
+                {/* <Footer /> */}
+                <div class="container" style={{ 'margin-top': 20 }}><small>Copyright © <a href="https://ridwan.co.uk" target="_blank" rel="noopener noreferrer">Ridwan
+            Gbadamosi</a> 2020</small></div>
+
             </div>
         );
     }
