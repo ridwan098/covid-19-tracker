@@ -1,11 +1,11 @@
 ### Covid-19 Tracker
 
-[![screenshot of the home screen](src/images/homesScreen.png)](https://covid19-tracker-2020.herokuapp.com/)
+[![screenshot of the home screen](src/images/homesScreen.png)](https://competent-kowalevski-9a889e.netlify.app/)
 ## Available Scripts
 
 
 ### You can view live version here:
-- [Click here](https://covid19-tracker-2020.herokuapp.com/)
+- [Click here](https://competent-kowalevski-9a889e.netlify.app/)
 
 In the project directory, you can run:
 
