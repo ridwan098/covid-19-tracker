@@ -33,7 +33,7 @@ class App extends React.Component {
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Chart data={data} country={country} />
                 {/* <Footer /> */}
-                <div class="container" style={{ 'margin-top': 20 }}><small>Copyright © <a href="https://ridwan.co.uk" target="_blank" rel="noopener noreferrer">Ridwan
+                <div className="container" style={{ 'marginTop': 20 }}><small>Copyright © <a href="https://ridwan.co.uk" target="_blank" rel="noopener noreferrer">Ridwan
             Gbadamosi</a> 2020</small></div>
 
             </div>

@@ -16,8 +16,8 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
     }, []);
 
     const lineChart = (
-        dailyData.length
-            ? (
+        dailyData === undefined || dailyData.length == 0
+            ? null : (
                 <Line
                     data={{
                         labels: dailyData.map(({ date }) => date),
@@ -34,7 +34,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
                             fill: true
                         }],
                     }}
-                />) : null
+                />)
     );
 
     console.log(confirmed, recovered, deaths)
