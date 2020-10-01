@@ -38,6 +38,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
     );
 
     console.log(confirmed, recovered, deaths)
+    console.log('testing fix with line data in chart.jsx')
     const barChart = (
         confirmed ? (
             <Bar
