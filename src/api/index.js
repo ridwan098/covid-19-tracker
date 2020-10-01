@@ -3,6 +3,7 @@ import axios from 'axios';
 const url = 'https://covid19.mathdro.id/api';
 
 export const fetchData = async (country) => {
+    console.log('testing fix with line data in chart.jsx')
     let changeableUrl = url;
 
     if (country) {
